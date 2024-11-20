@@ -1,0 +1,50 @@
+:root{
+    --btn-color:#EA1179;
+    --box-shadow:0px 0px 5px (var())
+    margin: 0;
+    --color:#fff;
+    background-image: url(image.webp )
+}
+header {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: var(--color );
+    margin-top: 30px;
+}
+nav ul a{
+    color: var(--color);
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: var(--btn-color);
+}
+.logo{
+    color: var(--color);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.logo label{
+    color: var(--btn-color);
+}
+nav ul{
+    color: var(--color);
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    gap: 30px;
+    
+    list-style: none;
+    
+}
+.logo2{
+    color: var(--btn-color);
+}
+h2{
+    font-size: 20px;
+    color:rgb(234, 207, 169);
+}
